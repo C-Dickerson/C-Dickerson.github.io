@@ -1,0 +1,66 @@
+* {
+  background: transparent; !important
+  color: black;
+  font-size: 12pt;
+  font-family: Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+h1 {
+  font-size: 40pt;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  letter-spacing: 0.01in;
+  font-size: 16pt;
+  border-bottom: 1pt solid black;
+  margin-bottom: 0.2in;
+}
+
+address {
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.01in;
+  font-size: 30pt;
+}
+
+
+body {
+  line-height: 1.5em;
+}
+
+section,
+article {
+  margin-bottom: 0.2in;
+}
+
+img {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+#noprint {
+  display: none;
+}
+
+#ed {
+  line-height: 1em;
+}
+
+#ac {
+  line-height: 1.75em;
+}
