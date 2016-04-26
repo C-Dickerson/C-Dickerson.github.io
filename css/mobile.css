@@ -1,0 +1,57 @@
+@media (max-width: 320px) {
+  div {
+    height: auto;
+    width: 320px;
+  }
+
+    h1 {
+    font-size: 30px;
+  }
+
+    h2 {
+    font-size: 25px;
+  }
+
+    h3 {
+    font-size: 20px;
+  }
+
+    nav {
+    font-size: 15px;
+  }
+
+    body {
+    font-size: 15px;
+  }
+
+    address {
+      font-size: 15px;
+  }
+
+    iframe {
+      max-width: 310px;
+  }
+
+    .left {
+    clear: both;
+    position: relative;
+    left: 70px;
+  }
+
+    #right {
+    clear: both;
+    position: relative;
+    right: 65px;
+  }
+
+    #up {
+    clear: both;
+    position: relative;
+    right: 65px;
+    top: 3px;
+  }
+
+    #white {
+    font-size: 15px;
+  }
+}

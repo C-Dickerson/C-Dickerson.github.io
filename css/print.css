@@ -15,7 +15,7 @@ a {
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: 30pt;
   text-align: center;
   margin: 0;
 }
@@ -37,7 +37,7 @@ address {
 
 
 body {
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 section,
@@ -53,14 +53,6 @@ nav {
   display: none;
 }
 
-#noprint {
-  display: none;
-}
-
-#ed {
-  line-height: 1em;
-}
-
-#ac {
-  line-height: 1.75em;
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
 }
